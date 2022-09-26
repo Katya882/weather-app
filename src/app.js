@@ -4,6 +4,9 @@ let tempSpan = "https://api.openweathermap.org/data/2.5/weather";
 let searchInput = document.querySelector("#cityName");
 
 let temperatureSearch = document.querySelector("#temperatureSearch");
+let iconElement = document.querySelector(#icon);
+
+
 function searchCity(event) {
     event.preventDefault();
     if (searchInput.value) {
