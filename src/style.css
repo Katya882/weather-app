@@ -11,25 +11,11 @@
   background-size: auto;
   background-position: center;
   overflow: hidden;
-  height: 800px;
-  max-width: 1170px;
+  height: 600px;
+  max-width: 1473px;
   border-radius: 10px;
   margin: 30px auto;
   position: relative; }
-
-.weather-table {
-  flex: 0 1 40%;
-  height: 100%;
-  background: rgba(53, 112, 166, 0.15);
-  backdrop-filter: blur(10px);
-  border-radius: 10px; }
-
-.weather-name {
-  text-align: center;
-  color: black; }
-  .weather-name a {
-    text-decoration: none;
-    cursor: pointer; }
 
 .form {
   position: absolute;
@@ -91,8 +77,7 @@
 
 .temp-gr {
   display: flex;
-  flex-direction: row;
-  margin-left: 12%; }
+  flex-direction: row; }
 
 .celsius {
   padding: 0 20px; }
@@ -102,5 +87,25 @@
   border: none;
   background: space;
   color: #fff; }
+
+.weather-table {
+  flex: 0 1 40%;
+  height: 100%;
+  background: rgba(53, 112, 166, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  font-size: 25px;
+  overflow-y: scroll; }
+
+.weather-name {
+  text-align: center;
+  color: black; }
+  .weather-name a {
+    text-decoration: none;
+    cursor: pointer; }
+
+.weather-forecast-item {
+  display: flex;
+  justify-content: space-around; }
 
 /*# sourceMappingURL=style.css.map */
