@@ -8,7 +8,7 @@
   align-items: flex-start;
   background-image: url(img/weather-bgr.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   overflow: hidden;
   height: 600px;
@@ -107,5 +107,27 @@
 .weather-forecast-item {
   display: flex;
   justify-content: space-around; }
+
+@media (max-width: 1250px) {
+  .form {
+    margin-left: 30px;
+    margin-top: 30px; }
+    .form .input-text {
+      height: 48px;
+      width: 190px;
+      font-size: 18px; }
+    .form .input-search {
+      width: 65px;
+      height: 48px; }
+
+  .temperature {
+    font-size: 16px;
+    padding: 5px; }
+    .temperature .inputF {
+      width: 40px;
+      height: 40px; }
+
+  .celsius {
+    padding: 0px 10px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,7 +8,7 @@
   align-items: flex-start;
   background-image: url(img/weather-bgr.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   overflow: hidden;
   height: 600px;
@@ -16,18 +16,6 @@
   border-radius: 10px;
   margin: 30px auto;
   position: relative;
-  //&:before{
-  //  content: '';
-  //  position: absolute;
-  //  height: 100%;
-  //  width: 40%;
-  //  top: 0;
-  //  right: 0;
-  //  left: auto;
-  //  background: rgba(53, 112, 166, 0.15);
-  //  backdrop-filter: blur(10px);
-  //  border-radius: 10px;
-  //}
 }
 .form{
   position: absolute;
@@ -131,3 +119,36 @@
   display: flex;
   justify-content: space-around;
 }
+
+
+@media (max-width: 1250px) {
+  .form{
+    margin-left: 30px;
+    margin-top: 30px;
+    .input-text{
+      height: 48px;
+      width: 190px;
+      font-size: 18px;
+    }
+    .input-search{
+      width: 65px;
+      height: 48px;
+    }
+  }
+  .temperature{
+    font-size: 16px;
+    padding: 5px;
+    .inputF{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .celsius {
+    padding: 0px 10px;
+  }
+}
+
+
+
+
+
